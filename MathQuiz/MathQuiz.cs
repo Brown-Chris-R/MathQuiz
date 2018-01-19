@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace MathQuiz
 {
-    public partial class Form1 : Form
+    public partial class MathQuiz : Form
     {
         // Create a Random object called randomizer
         // to generate random numbers
@@ -83,7 +83,7 @@ namespace MathQuiz
             timer1.Start();
         }
 
-        public Form1()
+        public MathQuiz()
         {
             InitializeComponent();
         }
