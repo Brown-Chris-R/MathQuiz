@@ -78,8 +78,8 @@ namespace MathQuiz
             quotient.Value = 0;
 
             // Start the timer.
-            timeLeft = 120;
-            timeLabel.Text = "120 seconds";
+            timeLeft = 30;
+            timeLabel.Text = "30 seconds";
             timer1.Start();
         }
 
